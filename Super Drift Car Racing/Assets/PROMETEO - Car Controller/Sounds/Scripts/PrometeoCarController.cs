@@ -171,6 +171,7 @@ public class PrometeoCarController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        sumScore = 0;
         textSumScore.enabled = false;
 
         //In this part, we set the 'carRigidbody' value with the Rigidbody attached to this
